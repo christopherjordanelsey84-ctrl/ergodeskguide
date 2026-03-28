@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0f172a"/>
+
+  <!-- Subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.5"/>
+
+  <!-- Glow orbs -->
+  <circle cx="200" cy="300" r="200" fill="#22d3ee" opacity="0.05"/>
+  <circle cx="1000" cy="300" r="250" fill="#4ade80" opacity="0.05"/>
+
+  <!-- Logo mark: desk with monitor (large) -->
+  <g transform="translate(80, 180)">
+    <!-- Monitor stand -->
+    <rect x="56" y="96" width="16" height="28" fill="#22d3ee"/>
+    <!-- Monitor base -->
+    <rect x="32" y="120" width="64" height="6" rx="3" fill="#22d3ee"/>
+    <!-- Monitor screen -->
+    <rect x="0" y="0" width="128" height="100" rx="8" fill="#1e293b" stroke="#22d3ee" stroke-width="3"/>
+    <!-- Screen content -->
+    <rect x="12" y="14" width="60" height="5" rx="2.5" fill="#22d3ee" opacity="0.8"/>
+    <rect x="12" y="28" width="90" height="4" rx="2" fill="#4ade80" opacity="0.8"/>
+    <rect x="12" y="40" width="75" height="4" rx="2" fill="#94a3b8" opacity="0.6"/>
+    <rect x="12" y="52" width="82" height="4" rx="2" fill="#94a3b8" opacity="0.6"/>
+    <rect x="12" y="64" width="50" height="4" rx="2" fill="#94a3b8" opacity="0.6"/>
+    <!-- Desk surface -->
+    <rect x="-20" y="126" width="168" height="10" rx="5" fill="#4ade80" opacity="0.7"/>
+  </g>
+
+  <!-- Main text -->
+  <text x="280" y="270" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="72" font-weight="800" fill="#f8fafc" letter-spacing="-2">ErgoDesk</text>
+  <text x="280" y="350" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="72" font-weight="800" fill="#22d3ee" letter-spacing="-2">Guide</text>
+
+  <!-- Tagline -->
+  <text x="282" y="400" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="24" font-weight="400" fill="#94a3b8" letter-spacing="3">HONEST REVIEWS · EXPERT GUIDES</text>
+
+  <!-- Decorative line -->
+  <rect x="282" y="430" width="120" height="4" rx="2" fill="#4ade80"/>
+
+  <!-- Bottom badge -->
+  <g transform="translate(282, 490)">
+    <rect width="200" height="44" rx="22" fill="#22d3ee" opacity="0.15" stroke="#22d3ee" stroke-width="2"/>
+    <text x="100" y="28" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="16" font-weight="600" fill="#22d3ee" text-anchor="middle" letter-spacing="1">ergodeskguide.com</text>
+  </g>
+
+  <!-- Stars rating decoration -->
+  <g transform="translate(540, 490)" opacity="0.3">
+    <text font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="20" fill="#fbbf24">★★★★★</text>
+    <text x="110" y="0" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="14" fill="#94a3b8">Trusted by 10,000+ readers</text>
+  </g>
+</svg>

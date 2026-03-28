@@ -5,16 +5,28 @@ theme = "PaperMod"
 
 [params]
   title = "ErgoDesk Guide"
-  description = "Honest, expert reviews of ergonomic home office equipment. Find the perfect standing desk, chair, monitor arm and more."
+  description = "Honest, expert reviews of ergonomic home office equipment. Standing desks, ergonomic chairs, monitor arms, and more."
   keywords = ["ergonomic desk", "standing desk", "home office setup", "ergonomic chair", "monitor arm"]
   author = "ErgoDesk Guide"
-  images = ["og-image.png"]
+  images = ["https://ergodeskguide.com/images/og-image.png"]
+  logo = "/images/logo.svg"
+  logoHeight = "36px"
+  siteName = "ErgoDesk Guide"
 
 [params.PaperMod]
   home_info_params = []
-  socialIcons = ["twitter", "linkedin"]
+  socialIcons = []
   showtoc = true
   tocopen = false
+  disableThemeToggle = false
+  defaultTheme = "auto"
+  showBreadcrumbs = true
+  hidename = false
+
+[params.seo]
+  canonicalURL = true
+  homePageTitle = "ErgoDesk Guide — Expert Home Office Reviews & Guides"
+  titleTemplate = "%s | ErgoDesk Guide"
 
 [[menu.main]]
   identifier = "reviews"
@@ -33,3 +45,9 @@ theme = "PaperMod"
   name = "Best Of"
   url = "/best-of/"
   weight = 3
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/pages/affiliate-disclosure/"
+  weight = 4

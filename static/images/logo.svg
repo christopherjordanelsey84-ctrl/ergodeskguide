@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 80" width="400" height="80">
+  <!-- Logo mark: desk with monitor -->
+  <g transform="translate(0, 8)">
+    <!-- Monitor stand -->
+    <rect x="28" y="36" width="8" height="12" fill="#22d3ee"/>
+    <!-- Monitor base -->
+    <rect x="20" y="46" width="24" height="3" rx="1.5" fill="#22d3ee"/>
+    <!-- Monitor screen -->
+    <rect x="8" y="8" width="48" height="30" rx="3" fill="#1e293b" stroke="#22d3ee" stroke-width="2"/>
+    <!-- Screen glow -->
+    <rect x="12" y="12" width="40" height="22" rx="1.5" fill="#0f172a"/>
+    <!-- Screen content lines -->
+    <rect x="16" y="17" width="20" height="2" rx="1" fill="#22d3ee" opacity="0.7"/>
+    <rect x="16" y="22" width="14" height="2" rx="1" fill="#4ade80" opacity="0.7"/>
+    <rect x="16" y="27" width="17" height="2" rx="1" fill="#94a3b8" opacity="0.5"/>
+    <!-- Standing desk surface hint -->
+    <rect x="4" y="48" width="56" height="4" rx="2" fill="#4ade80" opacity="0.6"/>
+  </g>
+
+  <!-- Text: ErgoDesk -->
+  <text x="72" y="36" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="700" fill="#f8fafc" letter-spacing="-0.5">Ergo</text>
+  <text x="72" y="60" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="26" font-weight="700" fill="#22d3ee" letter-spacing="-0.5">Desk</text>
+
+  <!-- Tagline -->
+  <text x="72" y="76" font-family="'Inter', 'Segoe UI', system-ui, sans-serif" font-size="10" font-weight="400" fill="#64748b" letter-spacing="1.5">GUIDE</text>
+</svg>
