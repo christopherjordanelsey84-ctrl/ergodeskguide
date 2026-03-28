@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pages on ErgoDesk Guide</title>
+    <link>https://ergodeskguide.com/pages/</link>
+    <description>Recent content in Pages on ErgoDesk Guide</description>
+    <image>
+      <title>ErgoDesk Guide</title>
+      <url>https://ergodeskguide.com/og-image.png</url>
+      <link>https://ergodeskguide.com/og-image.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ergodeskguide.com/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Affiliate Disclosure</title>
+      <link>https://ergodeskguide.com/pages/affiliate-disclosure/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ergodeskguide.com/pages/affiliate-disclosure/</guid>
+      <description>How we fund ErgoDesk Guide through affiliate commissions.</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://ergodeskguide.com/pages/contact/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ergodeskguide.com/pages/contact/</guid>
+      <description>Get in touch with ErgoDesk Guide.</description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://ergodeskguide.com/pages/privacy-policy/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://ergodeskguide.com/pages/privacy-policy/</guid>
+      <description>How ErgoDesk Guide collects and uses your data.</description>
+    </item>
+  </channel>
+</rss>

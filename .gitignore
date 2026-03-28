@@ -1,0 +1,18 @@
+# Netlify deploy settings
+.netlify
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Hugo build files
+.hugo_build.lock
+public/
+resources/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

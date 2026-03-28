@@ -1,0 +1,35 @@
+baseURL = "https://ergodeskguide.com/"
+languageCode = "en-GB"
+title = "ErgoDesk Guide"
+theme = "PaperMod"
+
+[params]
+  title = "ErgoDesk Guide"
+  description = "Honest, expert reviews of ergonomic home office equipment. Find the perfect standing desk, chair, monitor arm and more."
+  keywords = ["ergonomic desk", "standing desk", "home office setup", "ergonomic chair", "monitor arm"]
+  author = "ErgoDesk Guide"
+  images = ["og-image.png"]
+
+[params.PaperMod]
+  home_info_params = []
+  socialIcons = ["twitter", "linkedin"]
+  showtoc = true
+  tocopen = false
+
+[[menu.main]]
+  identifier = "reviews"
+  name = "Reviews"
+  url = "/reviews/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "guides"
+  name = "Guides"
+  url = "/guides/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "best-of"
+  name = "Best Of"
+  url = "/best-of/"
+  weight = 3
